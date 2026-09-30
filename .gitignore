@@ -1,0 +1,14 @@
+# Large model artifacts
+LLM/paid_search_lora_adapter/
+
+# Pip install artifacts
+=*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

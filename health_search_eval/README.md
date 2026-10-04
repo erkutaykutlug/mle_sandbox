@@ -1,6 +1,10 @@
 # Health Answer Safety & Quality Evaluation Framework
 
-I built an evaluation framework that scores AI-generated health answers for accuracy, safety, and whether they escalate appropriately (e.g., recognizing an emergency, or asking for missing information instead of guessing), and validated the scoring against my own hand-labeled examples. I then used an independent model to catch bias in that scoring, and ran an A/B test to see whether adding reference information actually improved answer quality. Finally, I fine-tuned the model on medical Q&A data and used my own evaluation framework to catch a specific, measurable safety regression the fine-tuning introduced — plus a clear explanation of why it happened.
+- Built an evaluation framework that scores AI-generated health answers for accuracy, safety, and whether they escalate appropriately (e.g., recognizing an emergency, or asking for missing information instead of guessing).
+- Validated that scoring against my own hand-labeled examples, rather than trusting the automated judge on its own.
+- Used an independent model to catch bias in that scoring, and ran an A/B test to see whether adding reference information actually improved answer quality.
+- Fine-tuned the model on medical Q&A data, then used my own evaluation framework to catch a specific, measurable safety regression the fine-tuning introduced.
+- Traced that regression to a clear, explainable cause rather than leaving it as an unexplained number.
 
 ## Notebooks
 

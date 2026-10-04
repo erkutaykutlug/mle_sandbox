@@ -1,6 +1,9 @@
 # Large model artifacts
 LLM/paid_search_lora_adapter/
 
+# Local-only, not published
+MLE/
+
 # Pip install artifacts
 =*
 
